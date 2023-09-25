@@ -7,7 +7,7 @@ export default class ProductItem {
   }
 
   addToCart() {
-    app.addProductToCart(this.product)
+    app.shop.addProductToCart(this.product)
   }
 
   handleAddToCartClick() {
